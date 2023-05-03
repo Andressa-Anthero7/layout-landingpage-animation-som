@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>LandingPage</title>
+
+	<!-- Jquery CDN -->
+	 <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Boostrap 4 CDN  -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+	<!-- FontAwesomw -->
+	<script src="https://kit.fontawesome.com/fc630e5bd7.js" crossorigin="anonymous"></script>
+
+	<!-- CSS -->
+	 <link rel="stylesheet" type="text/css" href="estilo.css">
+
+
+	<!-- Java Script -->
+	 <script type="text/javascript" src="script.js"></script>
+
+
+
+
+
+
+
+</head>
+<body>
+	<div id="dialogo-cookies" class="text-center ">
+		<audio id="audio" src="vinheta.mp3"  type="audio/mp3"></audio>
+		<div class="modal" tabindex="-1" role="dialog">
+		  <div class="modal-dialog" role="document">
+		    <div class="modal-content ">
+		    	 <div class="modal-header  ">
+		        <h5 class="modal-title text-dark text-center ">Politica de Privacidade</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		    	<h6 class="text-center text-dark"></h6>
+		      
+		      <div class="modal-body">
+		        <small class="text-dark mt-0">
+					Este website recolhe dados pessoais para alimentar as métricas do nosso site, como:
+
+					Informações sobre o seu browser, rede e aparelho
+					Páginas da web que você visitou antes de chegar a este website
+					O seu endereço IP
+
+					Essas informações também podem incluir detalhes sobre o uso deste website, como:
+
+					Cliques
+					Links internos
+					Páginas visitadas
+					Rolagem
+					Buscas
+					Datações
+
+					Fazemos isso, para sabermos mais sobre o tráfego e a atividade do site.
+			  </small>
+		      </div>
+		      <div class="modal-footer text-center">
+		        <button type="button" class="btn btn-primary btn-lg" id="btn-aceita-termos-privacidade" >Aceita Politica de Privacidade</button>
+		        <button type="button" class="btn btn-secondary btn-lg " id="btn-recusa-termos-privacidade" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+
+	<!-- INICIO CONTAINER -->
+	<div class="container-fluid" id="container">
+		<!--<audio id="audio" controls autoplay="autoplay" muted="muted" src="chamada-audio.mp3" type="audio/mp3"></audio>-->
+		
+		
+		<!-- HEADER -->
+		<header class="text-center">
+
+			<!-- IMG LOGO MARCA -->
+			<img src="logo.png" class="img img-fluid  " id="logo-marca" alt="Sua Logo Aqui">
+		
+		</header>
+		<div id="chamada-1" >
+			<h6 class="text-center border" id="header-1">Landing Page</h6>
+			<img src="dispositivos.png" class="img img-fluid" id="img-dispositivos">
+			<img src="abstrato-direita.png" class="img img-fluid" id="img-abstrato-direita">
+			<img src="abstrato-esquerda.png" class="img img-fluid" id="img-abstrato-esquerda">
+		</div>
+
+		<!-- Formulário -->
+		<div id="div-formulario">
+			<h5 class="text-center m-2 " id="header-formulario" >Preencha o Formulário.</h5>
+			<p class="p-1">Melhore seu processo de prospecçao</p>
+			<form id="formulario" enctype="multipart/form-data" method="POST" class="p-1">
+				{% csrf_token %}
+				<!-- CAMPO NOME -->
+				<div class="campo-formulario form-group" id="campo-formulario-nome">
+					<label for="nome">Nome</label>
+					<input type="text" name="nome" id="nome" class="form-control" placeholder="Seu Nome">
+					
+
+
+
+				</div>
+
+				<!-- E-MAIL -->
+				<div class="campo-formulario form-group" id="campo-formulario-email">
+					<label for="email">Seu Melhor E-mail</label>
+					<input type="email" name="email" id="email" class="form-control"  placeholder="Seu Melhor E-mail">
+					
+
+
+				</div>
+
+				<!-- CAMPO WHATSAPP -->
+				<div class="campo-formulario form-group" id="campo-formulario-whatsapp">
+					<label for="whatsapp">Whatsapp</label>
+					<input type="text" name="whatsapp" id="whatsapp" class="form-control" placeholder="WhatsApp" maxlength="14" minlength="11">
+					
+					
+
+
+				</div>
+
+				<!-- CAMPO ACEITO OS TERMOS -->
+				<div class="campo-formulario form-group" id="campo-formulario-aceita-termos">
+					<input type="checkbox" name="aceita_termos" id="aceita-termos"  >
+					<label for="aceita-termos" id="text-aceita-termos" class="d-inline">Aceita o contato de nosso time de consultores.</label>
+
+
+				</div>
+
+				<!-- CAMPO BTN ENVIAR -->
+				<div id="btn-enviar" class="form-group text-center" >
+					<input type="submit" name="enviar" id="enviar" class="btn-lg btn-warning " disabled>
+
+					<br>
+				</div>
+
+
+
+			</form>
+		</div>
+
+		
+
+
+
+
+
+
+
+
+
+		
+		
+
+		
+
+		
+		
+	</div>
+	<!-- INICIO CONTAINER -->
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
