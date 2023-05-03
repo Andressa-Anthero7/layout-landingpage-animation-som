@@ -196,12 +196,12 @@
         max-width: 90%;
         min-height: 600px;
         /* From https://css.glass */
-        background: rgba(180, 73, 255, 0.27);
+        background: rgba(255, 255, 255, 0.2);
         border-radius: 16px;
-        
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
         backdrop-filter: blur(5px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(180, 73, 255, 0.3);
+        border: 1px solid rgba(255, 255, 255, 0.3);
 
         position: relative;
         top:-52em;
@@ -221,13 +221,636 @@
     
 }
 
+@media (min-width:  321px) and (max-width:360.58px) {
+
+     body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        -moz-overflow-x:hidden;
+        -webkit-overflow-x:hidden;
+
+        font-family:;
+        
+
+        background: rgb(34,36,40);
+        background: linear-gradient(180deg, rgba(34,36,40,1) 7%, rgba(0,158,214,1) 48%, rgba(0,189,252,1) 70%);
+
+        background-repeat:no-repeat;
+        min-height: 2500px;
+        min-width:100%;
+
+
+
+        
+    }
+
+    html{
+        border:1px soli red;
+       
+        
+
+        
+    }
+
+    .container-fluid{
+        margin: 0;
+        padding:0;
+        min-width:100%;
+
+
+        
+    }
+
+    #container1{
+        display: none;
+    }
+
+    #chamada-1{
+        position: relative;
+        top:-1.7em;
+
+    }
+
+    @keyframes desce{
+
+        from {
+          transform: translateY(-1000px);
+        }
+        to {
+          transform: translateY(0);
+        }
+    } 
+
+    #header-1{
+       font-size: 2em;
+       padding: 1em 0em;
+       font-family: Impact;
+       text-shadow: 2em  white;
+       animation: desce 1s;
+
+    }
+
+     
+
+    @keyframes diminuilogo{
+        from {
+          transform: scale(2);;
+        }
+        to {
+          transform: scale(0.5);;
+        }
+    }
+
+
+
+    #logo-marca{
+        max-width:8em;
+
+
+    }
+
+
+
+
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+
+    }
+
+    #img-dispositivos{
+        position: relative;
+        top:-7em;
+        min-height: 23em;
+        min-width: 120%;
+        position: relative;
+        left:-2.3em;
+        top:-8em;
+        animation: fadein 3s;
+    }
+
+    
+
+    @keyframes direita{
+
+        from {
+          transform: translateX(-1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+    #img-abstrato-direita{
+        position: relative;
+        top:-33em;
+        left:-3em;
+        z-index: -1;
+        animation: direita 3s alternate;
+    }
+
+
+
+
+
+
+   
+
+    @keyframes esquerda{
+
+        from {
+          transform: translateX(1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+     #img-abstrato-esquerda{
+        position: relative;
+        top:-53em;
+         animation: esquerda 5s alternate;
+
+    }
+
+    #dialogo-cookies{
+        
+       
+    }
+
+    small{
+        font-size: 0.7em;
+        overflow:scroll;
+        width: 50px;
+        position: relative;
+        top:-1em;
+    }
+
+    #btn-aceita-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:-2.5em;
+    }
+
+    #btn-recusa-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:0em;
+    }
+
+    #div-formulario{
+        max-width: 90%;
+        min-height: 600px;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        position: relative;
+        top:-58em;
+        left:1em;
+
+        box-shadow: 2px 4px;
+       
+        display: none;
+    }
+
+    #texto-auxiliar-form{
+        white-space: nowrap;
+        padding: 0.5em;
+    }
+    
+    
+    
+}
+
 @media (min-width: 361px) and (max-width:  375.97px){
+     body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        -moz-overflow-x:hidden;
+        -webkit-overflow-x:hidden;
+
+        font-family:;
+        
+
+        background: rgb(34,36,40);
+        background: linear-gradient(180deg, rgba(34,36,40,1) 7%, rgba(0,158,214,1) 48%, rgba(0,189,252,1) 70%);
+
+        background-repeat:no-repeat;
+        min-height: 2500px;
+        min-width:100%;
+
+
+
+        
+    }
+
+    html{
+        border:1px soli red;
+       
+        
+
+        
+    }
+
+    .container-fluid{
+        margin: 0;
+        padding:0;
+        min-width:100%;
+
+
+        
+    }
+
+    #container1{
+        display: none;
+    }
+
+    #chamada-1{
+        position: relative;
+        top:-1.7em;
+
+    }
+
+    @keyframes desce{
+
+        from {
+          transform: translateY(-1000px);
+        }
+        to {
+          transform: translateY(0);
+        }
+    } 
+
+    #header-1{
+       font-size: 2em;
+       padding: 1em 0em;
+       font-family: Impact;
+       text-shadow: 2em  white;
+       animation: desce 1s;
+
+    }
+
+     
+
+    @keyframes diminuilogo{
+        from {
+          transform: scale(2);;
+        }
+        to {
+          transform: scale(0.5);;
+        }
+    }
+
+
+
+    #logo-marca{
+        max-width:8em;
+
+
+    }
+
+
+
+
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+
+    }
+
+    #img-dispositivos{
+        position: relative;
+        top:-7em;
+        min-height: 23em;
+        min-width: 120%;
+        position: relative;
+        left:-2.3em;
+        top:-8em;
+        animation: fadein 3s;
+    }
+
+    
+
+    @keyframes direita{
+
+        from {
+          transform: translateX(-1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+    #img-abstrato-direita{
+        position: relative;
+        top:-34em;
+        left:-3em;
+        z-index: -1;
+        animation: direita 3s alternate;
+    }
+
+
+
+
+
+
+   
+
+    @keyframes esquerda{
+
+        from {
+          transform: translateX(1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+     #img-abstrato-esquerda{
+        position: relative;
+        top:-55em;
+         animation: esquerda 5s alternate;
+
+    }
+
+    #dialogo-cookies{
+        
+       
+    }
+
+    small{
+        font-size: 0.7em;
+        overflow:scroll;
+        width: 50px;
+        position: relative;
+        top:-1em;
+    }
+
+    #btn-aceita-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:-3em;
+    }
+
+    #btn-recusa-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:-1em;
+    }
+
+    #div-formulario{
+        max-width: 90%;
+        min-height: 600px;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        position: relative;
+        top:-60em;
+        left:1em;
+
+        box-shadow: 2px 4px;
+       
+        display: none;
+    }
+
+    #texto-auxiliar-form{
+        white-space: nowrap;
+        padding: 0.5em;
+    }
+    
     
 
 }
 
 @media (min-width: 376px) and (max-width:  428.98px) {
+     body{
+        margin:0;
+        padding:0;
+        overflow-x:hidden;
+        -moz-overflow-x:hidden;
+        -webkit-overflow-x:hidden;
 
+        font-family:;
+        
+
+        background: rgb(34,36,40);
+        background: linear-gradient(180deg, rgba(34,36,40,1) 7%, rgba(0,158,214,1) 48%, rgba(0,189,252,1) 70%);
+
+        background-repeat:no-repeat;
+        min-height: 2500px;
+        min-width:100%;
+
+
+
+        
+    }
+
+    html{
+        border:1px soli red;
+       
+        
+
+        
+    }
+
+    .container-fluid{
+        margin: 0;
+        padding:0;
+        min-width:100%;
+
+
+        
+    }
+
+    #container1{
+        display: none;
+    }
+
+    #chamada-1{
+        position: relative;
+        top:-1.7em;
+
+    }
+
+    @keyframes desce{
+
+        from {
+          transform: translateY(-1000px);
+        }
+        to {
+          transform: translateY(0);
+        }
+    } 
+
+    #header-1{
+       font-size: 2em;
+       padding: 1em 0em;
+       font-family: Impact;
+       text-shadow: 2em  white;
+       animation: desce 1s;
+
+    }
+
+     
+
+    @keyframes diminuilogo{
+        from {
+          transform: scale(2);;
+        }
+        to {
+          transform: scale(0.5);;
+        }
+    }
+
+
+
+    #logo-marca{
+        max-width:8em;
+
+
+    }
+
+
+
+
+
+    @keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+
+    }
+
+    #img-dispositivos{
+        position: relative;
+        top:-7em;
+        min-height: 23em;
+        min-width: 120%;
+        position: relative;
+        left:-2.4em;
+        top:-8em;
+        animation: fadein 3s;
+    }
+
+    
+
+    @keyframes direita{
+
+        from {
+          transform: translateX(-1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+    #img-abstrato-direita{
+        position: relative;
+        top:-35em;
+        left:-3em;
+        z-index: -1;
+        animation: direita 3s alternate;
+    }
+
+
+
+
+
+
+   
+
+    @keyframes esquerda{
+
+        from {
+          transform: translateX(1000px);
+        }
+        to {
+          transform: translateX(0);
+        }
+    } 
+
+     #img-abstrato-esquerda{
+        position: relative;
+        top:-55em;
+         animation: esquerda 5s alternate;
+
+    }
+
+    #dialogo-cookies{
+        
+       
+    }
+
+    small{
+        font-size: 0.7em;
+        overflow:scroll;
+        width: 50px;
+        position: relative;
+        top:-1em;
+    }
+
+    #btn-aceita-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:-4em;
+    }
+
+    #btn-recusa-termos-privacidade{
+        font-size: 0.8em;
+        display: block;
+        position: relative;
+        top:-1em;
+        left:-1em;
+    }
+
+    #div-formulario{
+        max-width: 90%;
+        min-height: 600px;
+        /* From https://css.glass */
+        background: rgba(255, 255, 255, 0.2);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        position: relative;
+        top:-60em;
+        left:1em;
+
+        box-shadow: 2px 4px;
+       
+        display: none;
+    }
+
+    #texto-auxiliar-form{
+        white-space: nowrap;
+        padding: 0.5em;
+    }
+    
     
 
 }
